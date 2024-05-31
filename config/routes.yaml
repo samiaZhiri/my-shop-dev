@@ -18,3 +18,11 @@ app_login:
 
 app_logout:
     path: /logout
+
+app_category:
+    path: /category
+    controller: App\Controller\CategoryController::index
+
+app_category_new:
+    path: /category/new
+    controller: App\Controller\CategoryController::addCategory
